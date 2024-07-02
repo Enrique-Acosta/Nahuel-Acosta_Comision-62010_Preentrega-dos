@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px; 
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+.container {
+    text-align: center;
+}
+button{
+    margin: 2%;
+}
+.flipped {
+    background-color: #fff;
+}
